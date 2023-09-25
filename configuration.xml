@@ -1,0 +1,13 @@
+<CertificateOrchestrator>
+    <!-- Target subscription to work from, the location of the KeyVault -->
+    <AzureSubscriptionName></AzureSubscriptionName>
+    <!-- Target KeyVault to work from, the location of certificates -->
+    <AzureKeyVaultName></AzureKeyVaultName>
+    <DefaultCertificateAttributes>
+        <Country></Country> <!-- C= -->
+        <State></State> <!-- ST= -->
+        <Locality></Locality> <!-- L= -->
+        <Organisation></Organisation> <!-- O= -->
+        <OrgUnit></OrgUnit> <!-- OU= -->
+    </DefaultCertificateAttributes>
+</CertificateOrchestrator>
